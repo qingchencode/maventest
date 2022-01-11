@@ -21,7 +21,7 @@ public class InsertSort {
             //查找插入的位置
             for (;j>=0;--j)
             {
-                if (a[j]>value)//比较数值比要插入数值大
+                if (a[j]>value)//比较数值比要插入数值大，相等的不进行交换
                 {
                     a[j+1]=a[j];//交换数据
                 }
